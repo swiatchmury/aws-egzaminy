@@ -1,6 +1,6 @@
 # Egzaminy na certyfikaty AWS
 
-[Informacje ogólne](./informacje-ogólne)
+[Informacje ogólne](./informacje-ogolne)
 
 ### Jak przygotować się do egzaminu na:
 - AWS Certified Solutions Architect - Professional *#TODO*
