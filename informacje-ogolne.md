@@ -7,13 +7,13 @@ Egzaminy mozna zdawać w centrach egzaminacyjnych PSI oraz Pearson VUE. Egzamin 
 
 [Lista centrów egzaminacyjnych Pearson VUE w kraju](http://www.pearsonvue.com/servlet/vue.web2.core.Dispatcher?webContext=CandidateSite&webApp=TestCenterLocator&requestedAction=register&cid=374)
 
-[Wyszukiwarka centrów egazminacyjnych Pearson VUE](http://www.pearsonvue.com/es/locate/)
+[Wyszukiwarka centrów egzaminacyjnych Pearson VUE](http://www.pearsonvue.com/es/locate/)
 
 [Egzaminy online](https://home.pearsonvue.com/aws/onvue)
 
 ## Dodatkowe 30 minut (ESL +30)
 
-Osobom, dla których język angielski nie jest językiem ojczystym, przysługuje dodatkowe 30 minut. Warto skorzystać z tej opcji szczególnie w przypadku egzaminów na poziomie pro / specialty. Więcej informacji znajdziesz po zalogowaniu się na konto **AWS Training & Certification** w sekcji [Request Exam Accomodations](https://www.certmetrics.com/amazon/candidate/exam_accommodations_detail.aspx)
+Osobom, dla których język angielski nie jest językiem ojczystym, przysługuje dodatkowe 30 minut. Warto skorzystać z tej opcji szczególnie w przypadku egzaminów na poziomie pro / specialty. Więcej informacji znajdziesz po zalogowaniu się na konto **AWS Training & Certification** w sekcji *Request Exam Accomodations*
 
 ## Zniżka 50% na kolejne egzaminy oraz voucher na dowolny *online practice exam*
 
