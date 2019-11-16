@@ -5,9 +5,9 @@
 
 Egzaminy mozna zdawać w centrach egzaminacyjnych PSI oraz Pearson VUE. Egzamin na AWS Cloud Practitioner można zdawać online.
 
-[Lista centrów egzaminacyjnych Pearson VUE w Polsce](http://www.pearsonvue.com/Dispatcher?wsid=1573897101810&HasXSes=Y&wscid=1286898658)
+[Lista centrów egzaminacyjnych Pearson VUE w kraju](http://www.pearsonvue.com/servlet/vue.web2.core.Dispatcher?webContext=CandidateSite&webApp=TestCenterLocator&requestedAction=register&cid=374)
 
-[Wyszukiwarka centrów egazminacyjnych Pearson VUE](https://wsr.pearsonvue.com/testtaker/registration/SelectTestCenterProximity/CIMA?conversationId=2436841)
+[Wyszukiwarka centrów egazminacyjnych Pearson VUE](http://www.pearsonvue.com/es/locate/)
 
 [Egzaminy online](https://home.pearsonvue.com/aws/onvue)
 
