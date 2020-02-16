@@ -35,11 +35,9 @@ Microservices on AWS](https://d1.awsstatic.com/training-and-certification/docs-d
 
 [Infrastructure as Code](https://d1.awsstatic.com/training-and-certification/docs-devops-pro/infrastructure-as-code.pdf)
 
-[Blue/Green deployments](https://linuxacademy.com/cp/guides/download/refsheets/guides/refsheets/aws-blue-green-deployments-1_1566554146.pdf)
+[Blue/Green deployments](https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf)
 
-[Practicing Continuous Integration and Continuous Delivery on AWS](https://linuxacademy.com/cp/guides/download/refsheets/guides/refsheets/practicing-continuous-integration-continuous-delivery-on-aws_1566554865.pdf)
-
-[Operational Checklists for AWS](https://linuxacademy.com/cp/guides/download/refsheets/guides/refsheets/aws-operational-checklists_1531146262.pdf)
+[Practicing Continuous Integration and Continuous Delivery on AWS](https://d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf)
 
 
 ## Usługi AWS, które trzeba znać
