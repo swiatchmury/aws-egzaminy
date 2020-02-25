@@ -87,3 +87,5 @@ Microservices on AWS](https://d1.awsstatic.com/training-and-certification/docs-d
 [Adding custom logic to AwS CodePipeline with AWS Lambda & Amazon CloudWatch Events](https://aws.amazon.com/blogs/devops/adding-custom-logic-to-aws-codepipeline-with-aws-lambda-and-amazon-cloudwatch-events/)
 
 [Unit testing IAM policies across multiple accounts](https://aws.amazon.com/blogs/devops/unit-testing-iam-policies-across-multiple-accounts/)
+
+[Serverless CI/CD for the Enterprise on the AWS Cloud](https://aws-quickstart.s3.amazonaws.com/quickstart-trek10-serverless-enterprise-cicd/doc/serverless-cicd-for-the-enterprise-on-the-aws-cloud.pdf)
