@@ -8,7 +8,6 @@
 
 [AWS DevOps Blog](https://aws.amazon.com/blogs/devops/)
 
-
 ## Kursy egzaminacyjne i wspomagające przygotowania do egzaminu
 
 ### AWS Training
@@ -29,8 +28,7 @@
 
 ## AWS Whitepapers
 
-[Running Containerized
-Microservices on AWS](https://d1.awsstatic.com/training-and-certification/docs-devops-pro/running-containerized-microservices-on-aws.pdf)
+[Running Containerized Microservices on AWS](https://d1.awsstatic.com/training-and-certification/docs-devops-pro/running-containerized-microservices-on-aws.pdf)
 
 [Microservices on AWS](https://d1.awsstatic.com/training-and-certification/docs-devops-pro/microservices-on-aws.pdf)
 
@@ -39,6 +37,8 @@ Microservices on AWS](https://d1.awsstatic.com/training-and-certification/docs-d
 [Blue/Green deployments](https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf)
 
 [Practicing Continuous Integration and Continuous Delivery on AWS](https://d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf)
+
+[Risk and Compliance](https://d0.awsstatic.com/whitepapers/compliance/AWS_Risk_and_Compliance_Whitepaper.pdf)
 
 ## Usługi AWS, które trzeba znać
 
@@ -58,7 +58,11 @@ Microservices on AWS](https://d1.awsstatic.com/training-and-certification/docs-d
 
 #### AWS CodePipeline
 
+[Detect and React to Changes in Pipeline State with Amazon CloudWatch Events](https://docs.aws.amazon.com/codepipeline/latest/userguide/detect-state-changes-cloudwatch-events.html)
+
 #### AWS CloudFormation
+
+[DeletionPolicy Attribute](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-deletionpolicy.html)
 
 [Best practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
 
@@ -67,6 +71,14 @@ Microservices on AWS](https://d1.awsstatic.com/training-and-certification/docs-d
 #### AWS Elastic Beanstalk
 
 [FAQ](https://aws.amazon.com/elasticbeanstalk/faqs/)
+
+[Deployments](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.deploy-existing-version.html)
+
+[Deployment Options](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.rolling-version-deploy.html)
+
+[Blue / Green Deployments with Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.CNAMESwap.html)
+
+[Elastic Beanstalk CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html)
 
 #### AWS OpsWorks
 
@@ -79,6 +91,14 @@ Microservices on AWS](https://d1.awsstatic.com/training-and-certification/docs-d
 #### AWS Lambda
 
 #### AWS API Gateway
+
+#### Amazon RDS
+
+[Cross-Region Automatic Disaster Recovery on Amazon RDS for Oracle Database Using DB Snapshots and AWS Lambda](https://aws.amazon.com/blogs/database/cross-region-automatic-disaster-recovery-on-amazon-rds-for-oracle-database-using-db-snapshots-and-aws-lambda/)
+
+#### AWS Systems Manager
+
+[Systems Manager Inventory](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-inventory.html)
 
 ## Pozostałe materiały
 
