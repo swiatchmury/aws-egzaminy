@@ -16,6 +16,15 @@
 2. Use Amazon Route53 & create weighted alias records for each environment
 3. Use RDS db instance with multi-AZ configuration. Connect both environments to the instance
 
+### Upgrade RDS to the latest major version of DB with minimum downtime using CloudFormation
+
+1. Update the EngineVersion property of the `AWS::RDS::DBInstance` resource type to the latest desired version
+2. Launch a second stack.
+3. Make the new RDS instance a read replica
+4. When the status of the read replica is `AVAILABLE`, promote the replica to be a master
+
+[Upgrading a MySQL Database with Reduced Downtime](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MySQL.html#USER_UpgradeDBInstance.MySQL.ReducedDowntime)
+
 ## Collecting info about instances - on-premises & EC2
 
 1. Use AWS System Manager agent - Inventory
