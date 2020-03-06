@@ -1,4 +1,4 @@
-# Informacje o egzaminach AWS - wskazówki dla 
+# Informacje o egzaminach AWS - wskazówki dla piszących
 
 ## Wskazówki ogólne
 
