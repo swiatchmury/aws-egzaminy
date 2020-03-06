@@ -188,22 +188,9 @@ Choosing metrics:
 
 [Delegate Access Across AWS Accounts Using IAM Roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
-##### CLI Commands & API
-
-Generate a credential report:
-
-- CLI: `aws iam generate-credential-report`
-- API: `GenerateCredentialReport`
-
-Retrieve a credential report:
-
-- CLI: `aws iam get-credential-report`
-- API `GetCredentialReport`
-
 #### AWS Discovery Service
 
 [What is AWS Application Discovery Service](https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
-
 
 ## Pozostałe materiały
 
