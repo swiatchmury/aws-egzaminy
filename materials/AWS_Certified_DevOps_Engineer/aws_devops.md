@@ -241,6 +241,6 @@ Warto wziąć dodatkowe 30 min dla nieanglojęzycznych
 - ASG LifeCycle hooks
 - RDS w wielu regionach, update RDS z minimalną niedostępnością
 - Przesyłanie logów na jedno konto w środowisku multi-account: [Link](https://aws.amazon.com/pt/blogs/architecture/central-logging-in-multi-account-environments/)
-- Jak zablokować klucz dostępowy AWS gdy wycieknie (np. znajdzie się na GitHubie) [Link](https://github.com/aws/Trusted-Advisor-Tools/tree/master/ExposedAccessKeys i https://github.com/aws/Trusted-Advisor-Tools/tree/master/ExposedAccessKeys/stepbystep)
+- Jak zablokować klucz dostępowy AWS gdy wycieknie (np. znajdzie się na GitHubie) [Link](https://github.com/aws/Trusted-Advisor-Tools/tree/master/ExposedAccessKeys) i [Link](https://github.com/aws/Trusted-Advisor-Tools/tree/master/ExposedAccessKeys/stepbystep)
 - OpsWorks: pojawia się - jako "zamydlacz" ale tez w prawidłowych odpowiedziach
 - Flow CI/CD z wariantami: jedno czy wiele repozytoriów kodu; jeden czy wiele pipelinów
