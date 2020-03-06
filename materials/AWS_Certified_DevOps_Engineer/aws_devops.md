@@ -17,6 +17,7 @@
 ### Linux Academy
 
 **AWS Certified DevOps Engineer - Professional Level** - *Craig Arcuri* (32h 24m)
+=> solidnie omawia wiele zagadnień
 
 **AWS Developer Tools Deep Dive** - *Craig Arcuri* (15h 54m)
 
@@ -25,6 +26,9 @@
 ### Udemy
 
 [AWS Certified DevOps Engineer Professional 2020 - Hands On!](https://www.udemy.com/course/aws-certified-devops-engineer-professional-hands-on/) - *Stephane Maarek* (20h)
+=> najbardziej aktualny pod kątem egzaminu
+
+Testy: Whizlabs, ACloudGuru, Braincert
 
 ## AWS Whitepapers
 
@@ -77,6 +81,8 @@ Choosing metrics:
 #### AWS CodeBuild
 
 #### AWS CodeDeploy
+
+[AppSpec file structure hooks](https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html)
 
 #### AWS CodePipeline
 
@@ -213,3 +219,28 @@ Choosing metrics:
 Szczegóły techniczne i aktualny stan usług mogą nie być aktualne, ale opisane sposoby rozwiązania problemów nadal są aktualne:
 
 [Creating a Serverless AMI Certification Pipeline](https://www.slideshare.net/davidski1/creating-a-serverless-ami-certification-pipeline)
+
+## Praktyczne wskazówki odnośnie samego egzaminu
+
+*Na podstawie doświadczeń szczęśliwych posiadaczy tego certyfikaty*
+
+Nie ma się czego bać :-)
+Pytania są scenariuszowe, dosyć długie, zwykle jednokrotnego wyboru
+Kazde słowo w scenariuszu ma znaczenie
+Practice exam - trudniejszy niz rzeczywisty
+Warto wziąć dodatkowe 30 min dla nieanglojęzycznych
+
+### Szczegółowe wskazówki i zagadnienia do powtórzenia
+
+- Powtórzyć informacje o usługach: Route53, EC2, Elastic Beanstalk, CloudFormation, CodePipeline, CodeBuild, CodeDeploy, CodeCommit, ECS, ECR, Auto Scaling, ALB, RDS, AWS Inspector, Lambda, CloudWatch (logs/event/metric), Step Function, SQS, SNS, Kinesis stream i Firehose, S3, Guardduty, OpsWorks, Systems Manager (patchowanie), Trusted Advisor, Config – oczywiście ten egzamin to składanie klocków w workflow wiec często jest po prostu usługa wymieniona jako jedna z flow, ale warto wiedzieć że tego można użyć
+- RTO (Recovery Time Objective) & RPO (Recovery Point Objective) - warto wiedzieć, co to jest
+[Disaster Recovery](https://en.wikipedia.org/wiki/Disaster_recovery) i na podstawie podanych czasów dobrać odpowiednie rozwiązania
+- Rodzaje deploymentu: All at once, Rolling, Immutable, Blue/Green, Canary => w kontekście róznych usług, w tym Elastic Beanstalk. Dobór rodzaju deploymentu w zalezności od wymagań takich jak: dopuszczalna przerwa w dostępności albo brak, koszty itd.
+- Środowiska hybrydowe: monitorowanie za pomocą CloudWatch agent, mozliwość deploymentu za pomocą CodeDeploy równiez na te środowiska
+- Zrobienie AMI przyspiesza deployment aplikacji (a takze skraca czas uruchomienia instancji w ASG)
+- ASG LifeCycle hooks
+- RDS w wielu regionach, update RDS z minimalną niedostępnością
+- Przesyłanie logów na jedno konto w środowisku multi-account: [Link](https://aws.amazon.com/pt/blogs/architecture/central-logging-in-multi-account-environments/)
+- Jak zablokować klucz dostępowy AWS gdy wycieknie (np. znajdzie się na GitHubie) [Link](https://github.com/aws/Trusted-Advisor-Tools/tree/master/ExposedAccessKeys i https://github.com/aws/Trusted-Advisor-Tools/tree/master/ExposedAccessKeys/stepbystep)
+- OpsWorks: pojawia się - jako "zamydlacz" ale tez w prawidłowych odpowiedziach
+- Flow CI/CD z wariantami: jedno czy wiele repozytoriów kodu; jeden czy wiele pipelinów
