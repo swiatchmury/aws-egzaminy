@@ -46,21 +46,19 @@
 
 [Changing the Lauch Configuration of an Autoscaling Group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/change-launch-config.html)
 
-[Autoscaling based on metrics]()
-
 [Manual Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-manual-scaling.html)
 
 [Dynamic Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scale-based-on-demand.html)
 
 [Target Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-target-tracking.html)
 
-Choosing metrics:
-
-*Not all metrics work for target tracking. This can be important when you are specifying a customized metric. The metric must be a valid utilization metric and describe how busy an instance is. The metric value must increase or decrease proportionally to the number of instances in the Auto Scaling group. That's so the metric data can be used to proportionally scale out or in the number of instances.*
-
 [Scheduled Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/schedule_time.html)
 
 [FAQ](https://aws.amazon.com/ec2/autoscaling/faqs/)
+
+Choosing metrics:
+
+*Not all metrics work for target tracking. This can be important when you are specifying a customized metric. The metric must be a valid utilization metric and describe how busy an instance is. The metric value must increase or decrease proportionally to the number of instances in the Auto Scaling group. That's so the metric data can be used to proportionally scale out or in the number of instances.*
 
 #### Elastic Load Balancing
 
