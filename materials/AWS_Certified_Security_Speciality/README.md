@@ -26,11 +26,11 @@ Koniecznie przeczytaj przed egzaminem
 
 ### Usługi AWS, które trzeba znać na wylot
 
-* AWS IAM - policy, sposób budowania, mechanizm selekcji - tutaj nie ma zmiłuj, nie idź dalej, jeśli nie czujesz, ze doskonale rozumiesz zasadę działania.
+* AWS IAM - policy, sposób budowania, mechanizm selekcji - tutaj nie ma zmiłuj, nie idź dalej, jeśli nie czujesz, że doskonale rozumiesz zasadę działania.
 * AWS IAM - User, Group, Idenity Pool (wykorzystanie SAML) - Wystarczy ogólna znajomość, best practice.
 * AWS S3 - Pomyśl o S3 jako centralnym repozytorium plików/logów - zwróć uwagę na ACL i kopiowanie pomiędzy kontami. 
-* AWS CloudWatch - Zrozum jak działa i do czego służy - jak go pożenic z innymi usługami, czy tez wykorzystać jako Cron.
-* AWS KMS - tą usługę musisz również poznać bardzo dokładnie, budowę uprawnień, jak współpracuje z innymi serwisami w kontekście autoryzacji dostępu do certyfikatów, szyfrowania i deszyfrowania zawartości. Bardziej ogólnie, kiedy wykorzystać CMK, a kiedy CloudHSM.
+* AWS CloudWatch - Zrozum, jak działa i do czego służy - jak go pożenic z innymi usługami, czy tez wykorzystać jako Cron.
+* AWS KMS - tę usługę musisz również poznać bardzo dokładnie, budowę uprawnień, jak współpracuje z innymi serwisami w kontekście autoryzacji dostępu do certyfikatów, szyfrowania i deszyfrowania zawartości. Bardziej ogólnie, kiedy wykorzystać CMK, a kiedy CloudHSM.
 * AWS CloudHSM - warto wiedzieć, w których scenariuszach się sprawdzi, jakie są różnice w zarządzaniu, jak radzić sobie z Disaster Recovery i multi-region.
 * AWS CloudFront – zwróć szczególną uwagę na scenariusze użycia, warto przeklikać i mieć świadomość funkcjonalności. Zwróć uwagę na możliwe opcje ograniczania dostępu do treści, odpłatności za dostęp, wykorzystanie przez aplikacje.
 * AWS Lambda – pobaw się uprawnieniami przy wykorzystania innych serwisów i współpracą z API Gateway, a w tym Cognito i uwierzytelnianie.
@@ -47,7 +47,7 @@ Koniecznie przeczytaj przed egzaminem
 * [AWS Acceptable Use Policy](https://aws.amazon.com/aup/)
 * [AWS Penetration Testing](https://aws.amazon.com/security/penetration-testing/)
 * [Paweł Rzepa ogónie o egzaminie EN](https://medium.com/@rzepsky/passing-the-aws-certified-security-speciality-exam-d5ac90b3cdbc)
-* [Mapa myśli autor Pawła Rzepy - szczególnie przydatna do powtórek](https://coggle.it/diagram/XCx0VU8yTIKcn9xF/t/aws-certified-security-specialty)
+* [Mapa myśli, autor: Paweł Rzepa - szczególnie przydatna do powtórek](https://coggle.it/diagram/XCx0VU8yTIKcn9xF/t/aws-certified-security-specialty)
 * [Condition Keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html)
 
 ### Materiały video, które warto obejrzeć
