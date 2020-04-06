@@ -41,7 +41,7 @@ Poniżej to nie jest wyczerpująca lista, ale bardzo przydatna wiedza, żeby zł
   - W szczególności integracje i ograniczenia.
     - *Custom Rules* z *AWS Config*.
 - Przeczytaj *FAQ* dla *AWS WAF*.
-- Przeczytaj *FAQ* for *Amazon EFS* (i wiedz jakie są różnice pomiędzy nim a *AWS Storage Gateway* i *FSx*).
+- Przeczytaj *FAQ* dla *Amazon EFS* (i wiedz jakie są różnice pomiędzy nim a *AWS Storage Gateway* i *FSx*).
   - Zapoznaj się z *AWS DataSync*.
 - Przeczytaj *FAQ* dla *AWS Server Migration Services*.
   - Jakie rodzaje i platformy wirtualizacji wspiera?
@@ -67,7 +67,7 @@ Lista interesujących dokumentów rekomendowanych do przeczytania przed przystą
 
 ### Storage
 
-- [AWS Storage Services Overview](ittps://d1.awsstatic.com/whitepapers/AWS%20Storage%20Services%20Whitepaper-v9.pdf).
+- [AWS Storage Services Overview](https://d1.awsstatic.com/whitepapers/AWS%20Storage%20Services%20Whitepaper-v9.pdf).
 - [Building Big Data Storage Solutions (Data Lakes) for Maximum Flexibility](https://d1.awsstatic.com/whitepapers/Storage/data-lake-on-aws.pdf).
 
 ### Security
