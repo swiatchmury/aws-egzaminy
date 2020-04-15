@@ -76,17 +76,57 @@ Choosing metrics:
 
 #### AWS CodeCommit
 
+[Using Identity-Based Policies (IAM Policies) for CodeCommit](https://docs.aws.amazon.com/codecommit/latest/userguide/auth-and-access-control-iam-identity-based-access-control.html)
+
+[CodeCommit Permissions Reference](https://docs.aws.amazon.com/codecommit/latest/userguide/auth-and-access-control-permissions-reference.html)
+
+[Refining Access to Branches in AWS CodeCommit](https://aws.amazon.com/blogs/devops/refining-access-to-branches-in-aws-codecommit/)
+
+[Manage Triggers for an AWS CodeCommit Repository](https://docs.aws.amazon.com/codecommit/latest/userguide/how-to-notify.html)
+
 [Use CloudWatch Events to Start a Pipeline (CodeCommit Source)](https://docs.aws.amazon.com/codepipeline/latest/userguide/triggering.html)
 
 #### AWS CodeBuild
 
+[Build specification reference for CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html)
+
+[CodeBuild Samples](https://docs.aws.amazon.com/codebuild/latest/userguide/use-case-based-samples.html)
+
+[Validating AWS CodeCommit Pull Requests with AWS CodeBuild and AWS Lambda](https://aws.amazon.com/blogs/devops/validating-aws-codecommit-pull-requests-with-aws-codebuild-and-aws-lambda/)
+
 #### AWS CodeDeploy
+
+[What is CodeDeploy?](https://docs.aws.amazon.com/codedeploy/latest/userguide/welcome.html)
+
+[Working with Deployments in CodeDeploy](https://docs.aws.amazon.com/codedeploy/latest/userguide/deployments.html)
 
 [AppSpec file structure hooks](https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html)
 
+[Monitoring Deployments with Amazon CloudWatch Events](https://docs.aws.amazon.com/codedeploy/latest/userguide/monitoring-cloudwatch-events.html)
+
+[Monitoring Deployments with Amazon SNS Event Notifications](https://docs.aws.amazon.com/codedeploy/latest/userguide/monitoring-sns-event-notifications.html)
+
+[Configure Advanced Options for a Deployment Group](https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-groups-configure-advanced-options.html)
+
+[Use the register-on-premises-instance Command (IAM User ARN) to Register an On-Premises Instance](https://docs.aws.amazon.com/codedeploy/latest/userguide/register-on-premises-instance-iam-user-arn.html)
+
+[Use the register-on-premises-instance Command (IAM Session ARN) to Register an On-Premises Instance](https://docs.aws.amazon.com/codedeploy/latest/userguide/register-on-premises-instance-iam-session-arn.html)
+
+[Working with Deployment Configurations in CodeDeploy](https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html)
+
+[Redeploy and Roll Back a Deployment with CodeDeploy](https://docs.aws.amazon.com/codedeploy/latest/userguide/deployments-rollback-and-redeploy.html)
+
 #### AWS CodePipeline
 
+[Best practices & Use cases](https://docs.aws.amazon.com/codepipeline/latest/userguide/best-practices.html)
+
 [Detect and React to Changes in Pipeline State with Amazon CloudWatch Events](https://docs.aws.amazon.com/codepipeline/latest/userguide/detect-state-changes-cloudwatch-events.html)
+
+[CodePipeline Actions Requirements](https://docs.aws.amazon.com/codepipeline/latest/userguide/reference-pipeline-structure.html#action-requirements)
+
+[Invoke an AWS Lambda Function in a Pipeline in CodePipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/actions-invoke-lambda-function.html)
+
+[Create and Add a Custom Action in CodePipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/actions-create-custom-action.html)
 
 #### AWS CloudFormation
 
@@ -109,6 +149,8 @@ Choosing metrics:
 [CloudWatch Events Event Examples From Supported Services](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/EventTypes.html#api_event_type)
 
 [Creating a Billing Alarm to Monitor Your Estimated AWS Charges](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html)
+
+[New CloudWatch Events – Track and Respond to Changes to Your AWS Resources](https://aws.amazon.com/blogs/aws/new-cloudwatch-events-track-and-respond-to-changes-to-your-aws-resources/)
 
 #### AWS Elastic Beanstalk
 
@@ -208,6 +250,10 @@ Choosing metrics:
 
 [Earn Your DevOps Black Belt: Deployment Scenarios with AWS CloudFormation](https://www.slideshare.net/AmazonWebServices/earn-your-devops-black-belt-deployment-scenarios-with-aws-cloudformation-dev308r1-aws-reinvent-2018)
 
+[Implementing GitFlow Usinge AWS Code* services](https://aws.amazon.com/blogs/devops/implementing-gitflow-using-aws-codepipeline-aws-codecommit-aws-codebuild-and-aws-codedeploy/)
+
+[Jenkins on AWS](https://d1.awsstatic.com/whitepapers/DevOps/Jenkins_on_AWS.pdf)
+
 ## How-to
 
 [How to Automatically Revert and Receive Notifications About Changes to Your Amazon VPC Security Groups](https://aws.amazon.com/blogs/security/how-to-automatically-revert-and-receive-notifications-about-changes-to-your-amazon-vpc-security-groups/)
@@ -226,8 +272,8 @@ Szczegóły techniczne i aktualny stan usług mogą nie być aktualne, ale opisa
 
 Nie ma się czego bać :-)
 Pytania są scenariuszowe, dosyć długie, zwykle jednokrotnego wyboru
-Kazde słowo w scenariuszu ma znaczenie
-Practice exam - trudniejszy niz rzeczywisty
+Każde słowo w scenariuszu ma znaczenie
+Practice exam - trudniejszy niż rzeczywisty
 Warto wziąć dodatkowe 30 min dla nieanglojęzycznych
 
 ### Szczegółowe wskazówki i zagadnienia do powtórzenia
@@ -235,8 +281,8 @@ Warto wziąć dodatkowe 30 min dla nieanglojęzycznych
 - Powtórzyć informacje o usługach: Route53, EC2, Elastic Beanstalk, CloudFormation, CodePipeline, CodeBuild, CodeDeploy, CodeCommit, ECS, ECR, Auto Scaling, ALB, RDS, AWS Inspector, Lambda, CloudWatch (logs/event/metric), Step Function, SQS, SNS, Kinesis stream i Firehose, S3, Guardduty, OpsWorks, Systems Manager (patchowanie), Trusted Advisor, Config – oczywiście ten egzamin to składanie klocków w workflow wiec często jest po prostu usługa wymieniona jako jedna z flow, ale warto wiedzieć że tego można użyć
 - RTO (Recovery Time Objective) & RPO (Recovery Point Objective) - warto wiedzieć, co to jest
 [Disaster Recovery](https://en.wikipedia.org/wiki/Disaster_recovery) i na podstawie podanych czasów dobrać odpowiednie rozwiązania
-- Rodzaje deploymentu: All at once, Rolling, Immutable, Blue/Green, Canary => w kontekście róznych usług, w tym Elastic Beanstalk. Dobór rodzaju deploymentu w zalezności od wymagań takich jak: dopuszczalna przerwa w dostępności albo brak, koszty itd.
-- Środowiska hybrydowe: monitorowanie za pomocą CloudWatch agent, mozliwość deploymentu za pomocą CodeDeploy równiez na te środowiska
+- Rodzaje deploymentu: All at once, Rolling, Immutable, Blue/Green, Canary => w kontekście różnych usług, w tym Elastic Beanstalk. Dobór rodzaju deploymentu w zależności od wymagań takich jak: dopuszczalna przerwa w dostępności albo brak, koszty itd.
+- Środowiska hybrydowe: monitorowanie za pomocą CloudWatch agent, możliwość deploymentu za pomocą CodeDeploy również na te środowiska
 - Zrobienie AMI przyspiesza deployment aplikacji (a takze skraca czas uruchomienia instancji w ASG)
 - ASG LifeCycle hooks
 - RDS w wielu regionach, update RDS z minimalną niedostępnością
