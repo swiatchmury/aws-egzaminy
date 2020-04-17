@@ -7,6 +7,7 @@
 - [AWS Certified Solutions Architect - Professional](./materials/AWS_Certified_Solutions_Architect_Professional/README.md)
 - [AWS Certified Security - Specialty](./materials/AWS_Certified_Security_Speciality/README.md)
 - [AWS Certified Database - Specialty](./materials/AWS_Certified_Database_Specialty/README.md)
+- [AWS Certified Advanced Networking - Specialty](./materials/AWS_Certified_Advanced_Networking_Specialty/README.md)
 
 ### W Przygotowaniu
 
@@ -18,4 +19,3 @@
 - AWS Certified SysOps Administrator - Associate
 - AWS Certified Solutions Architect - Associate
 - AWS Certified Big Data - Specialty
-- AWS Certified Advanced Networking - Specialty
