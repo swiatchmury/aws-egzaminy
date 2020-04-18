@@ -30,15 +30,53 @@ Koniecznie przeczytaj przed egzaminem:
 
 ### Usługi AWS, które trzeba znać na wylot
 
-* VPC - architektura sieci private/public, NAT Gateway, NAT Instance, Elastic IP, Elastic Network Interface, routing i kolejność wyboru ścieżek, Flow Logs.
-* Security Groups, NACLs - czym się różnią, jak budujemy reguły, troubleshooting łączności sieciowej.
-* VPC Peering - do czego służy i jak łączy się z innymi rozwiązaniami sieciowymi. Musisz wiedzeć, co to jest transitive peering i jak będzie przebiegała komunikacja, gdy peering jest zestawiony w sytuacji kiedy mamy łańcuch VPC np. VPC_A <-> VPC_B <-> VPC_C.
-* VPC Endpoints - jakie serwisy używają Gateway a jakie Interface endpoints. Jakie informacje musimy posiadać żeby taki endpoint zbudować i jak łączą się one z innymi sieciami (np. z VPN czy Direct Connect). Co to jest AWS VPC Endpoint Services i jak udostępnić usługę klientom (innym kontom).
-* VPN - różne scenariusze zestawiania VPN site-2-site i klienckich. Przygotuj się na to, że możesz być zapytany, kiedy lepiej użyć VPN Gateway, a kiedy VPN zestawionego na instancjach EC2.
-* Direct Connect - tutaj jest naprawdę ciężko, jeśli nie posiadasz praktycznego doświadczenia. Pytań jest dużo i bez wiedzy na temat tej technologii po prostu nie da się zdać egzaminu. Potrzebna wiedza to m.in. typy połączeń (dedykowane/hostowane), typy interfejsów (private/public), routing pomiędzy siecią lokalną a AWS, limity i wymagania do zestawienia połączenia, routing.
-* Architektura - co to jest Transit VPC, CloudHub.
-* Podstawy sieci - adresacja IPv4, liczenie ilości dostępnych hostów na podstawie adresu i maski, routing BGP i ASNy - ogólnie jak masz podstawy sieci z kursu Cisco CCNA, to będzie ok.
-* Różne serwisy AWS - CloudFormation, Route53, AppStream 2.0, Lambda, CloudWatch, CloudTrail, CloudFront, networking dla EC2-ek, Placement Groups, Load Balancing.
+* VPC:
+  * Architektura sieci private/public.
+  * NAT Gateway vs NAT Instance.
+  * Elastic IP.
+  * Elastic Network Interface.
+  * Routing i kolejność wyboru ścieżek.
+  * VPC Flow Logs.
+* Security Groups & NACLs:
+  * Czym się różnią
+  * Jak budujemy reguły
+  * Troubleshooting łączności sieciowej
+* VPC Peering:
+  * Do czego służy i jak łączy się z innymi rozwiązaniami sieciowymi. Musisz wiedzeć co to jest transitive peering i jak będzie przebiegała komunikacja, gdy peering jest zestawiony w sytuacji kiedy mamy łańcuch VPC np. VPC_A <-> VPC_B <-> VPC_C.
+* VPC Endpoints:
+  * Jakie serwisy używają Gateway a jakie Interface endpoints
+  * Jakie informacje musimy posiadać, żeby taki endpoint zbudować i jak łączą się one z innymi sieciami (np. z VPN czy Direct Connect)
+  * Co to jest AWS VPC Endpoint Services i jak udostępnić usługę klientom (innym kontom)
+  * Czy i jak możemy udostępnić VPC Endpoints poza obręb sieci VPC (do sieci lokalnej, przez Direct Connect czy VPN)
+* VPN:
+  * Różne scenariusze zestawiania VPN site-2-site i klienckich
+  * Przygotuj się to to, że możesz być zapytany kiedy lepiej użyć VPN Gateway, a kiedy VPN zestawionego na instancjach EC2.
+* Direct Connect:
+  * Tutaj jest naprawdę ciężko, jeśli nie posiadasz praktycznego doświadczenia. Pytań jest dużo i bez wiedzy na temat tej technologii po prostu nie da się zdać egzaminu.
+  * Typy połączeń (dedykowane/hostowane)
+  * Typy interfejsów (private/public)
+  * Routing pomiędzy siecią lokalną a AWS
+  * Limity i wymagania do zestawienia połączenia
+* Architektura:
+  * Co to jest Transit VPC, CloudHub
+  * Jak możemy łączyć różne serwisy sieciowe: np. kilka VPC + peering, VPC + VPN do sieci lokalnej, połączenie sieci lokalnych do VPC za pomocą kilku linii jak VPN + Direct Connect
+  * Zestawienie VPN przez Direct Connect (Public VIF) dla bezpieczeństwa.
+* Podstawy sieci:
+  * Adresacja IPv4 & IPv6.
+  * Liczenie ilości dostępnych hostów na podstawie adresu i maski.
+  * Routing BGP i ASNy.
+  * Ogólnie jak masz podstawy sieci z kursu Cisco CCNA to tutaj będzie ok.
+* Różne serwisy AWS:
+  * CloudFormation
+  * Route53
+  * AppStream 2.0
+  * Lambda
+  * CloudWatch
+  * CloudTrail
+  * CloudFront
+  * Networking dla EC2-ek
+  * Placement Groups
+  * Load Balancing
 
 ### Pozostałe materiały
 
@@ -59,10 +97,10 @@ Dodatkowo ja przeczytałem CAŁĄ dokumentację do wymienionych wcześniej serwi
 
 ### Praktyczne wskazówki odnośnie samego egzaminu
 
-- Egzamin jest trudny, ale spokojnie do zdania. Jeśli miałbym porównać poziom do innych egzaminów, to według mnie jest prostszy niż AWS Certified Architect Pro. Jest mniej serwisów, które trzeba znać, więc łatwiej się skupić na uczeniu się tego, co naprawdę jest potrzebne.
-- Upewnij się, że naprawdę dobrze znasz podstawy sieci i routingu. Jak wspomniałem wcześniej, jeśli znasz podstawy z kursu Cisco CCNA, to tutaj raczej nie będze zaskoczenia.
-- Musisz naprawdę dobrze znać Direct Connect i jego elementy składowe. Pytań jest dużo i nie warto tutaj liczyć na "strzelanie" odpowiedzi. Jest to najtrudniejszy element egzaminu, bo ciężko tutaj o ćwiczenie na labie.
-- Podstawy routingu BGP - znajomość podstawowych terminów i zasady działania zapewni kilka punktów na egzaminie.
-- Musisz dobrze wiedzieć, jak zachowuje się routing i komunikacja sieciowa pomiędzy podsieciami używającymi poszczególnych usług AWS, np. jak działa komunikacja pomiędzy siecią on-premises a VPC posiadającym Gateway Endpoint, routing pomiędzy kilkoma VPC podłączonymi DX Gatewayem czy peeringiem.
-- Wykorzystaj dodatkowy czas dla osób z wiodącym językiem innym niż angielski (koniecznie poproś o niego przed rejestracją na egzamin);
-- Wykorzystaj zniżkę za poprzedni egzamin (jeśli ją jeszcze posiadasz) – po każdym zdanym egzaminie, Amazon daje 50% kupon zniżkowy.
+* Egzamin jest trudny, ale spokojnie do zdania. Jeśli miałbym porównać poziom do innych egzaminów to według mnie jest prostszy niż AWS Certified Architect Pro. Jest mniej serwisów, które trzeba znać, więc łatwiej się skupić na uczeniu się tego, co naprawdę jest potrzebne.
+* Upewnij się, że naprawdę dobrze znasz podstawy sieci i routingu. Jak wspomniałem wcześniej, jeśli znasz podstawy z kursu Cisco CCNA, to tutaj raczej nie będze zaskoczenia.
+* Musisz naprawdę dobrze znać Direct Connect i jego elementy składowe. Pytań jest dużo i nie warto tutaj liczyć na "strzelanie" odpowiedzi. Jest to najtrudniejszy element egzaminu, bo ciężko o ćwiczenie na labie.
+* Podstawy routingu BGP - znajomość podstawowych terminów i zasady działania zapewni kilka punktów na egzaminie.
+* Musisz dobrze wiedzieć jak zachowuje się routing i komunikacja sieciowa pomiędzy podsieciami używającymi poszczególnych usług AWS, np. jak działa komunikacja pomiędzy siecią on-premises a VPC posiadającym Gateway Endpoint, routing pomiędzy kilkoma VPC podłączonymi DX Gatewayem czy peeringiem.
+* Wykorzystaj dodatkowy czas dla osób z wiodącym językiem innym niż angielski (koniecznie poproś o niego przed rejestracją na egzamin)
+* Wykorzystaj zniżkę za poprzedni egzamin (jeśli ją jeszcze posiadasz) – po każdym zdanym egzaminie Amazon daje 50% kupon zniżkowy.
