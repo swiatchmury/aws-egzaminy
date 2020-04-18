@@ -18,4 +18,6 @@
 
 - AWS Certified Developer - Associate
 - AWS Certified SysOps Administrator - Associate
-- AWS Certified Big Data - Specialty
+- AWS Certified Data Analytics - Specialty
+- AWS Certified Machine Learning - Specialty
+- AWS Certified Alexa Skill Builder - Specialty
