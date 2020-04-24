@@ -14,6 +14,10 @@ Ten egzamin jest skierowany do osób, które na co dzień zajmują się sieciami
 Dodatkowo:
 * Whizlabs - przykładowe pytania. Nie spodziewaj się dokładnie takich samych na egzaminie, ale je można wykorzystać jako dodatkowe źródło do sprawdzenia swojej wiedzy.
 
+* [FreeCodeCamp](https://youtu.be/Ia-UEYYR44s) – darmowy 10 godzinny materiał z YT nagrany przez Andrew Brown. Świetny materiał, który sprawdza się do powtórki i utrwalenia  teoretycznych informacji przed egzaminem
+
+* [Digital Cloud cheat sheet](https://digitalcloud.training/certification-training/aws-solutions-architect-associate/) – przydatny cheat sheet zawierający wypunktowane, kluczowe informacje i wskazówki stricte pod kątem egzaminu. Obowiązkowy do przejrzenia przed certyfikacją
+
 ### AWS Whitepapers
 
 Koniecznie przeczytaj przed egzaminem:
