@@ -18,4 +18,14 @@
 
 - AWS Certified Developer - Associate
 - AWS Certified SysOps Administrator - Associate
-- AWS Certified Big Data - Specialty
+- AWS Certified Data Analytics - Specialty
+- AWS Certified Machine Learning - Specialty
+- AWS Certified Alexa Skill Builder - Specialty
+
+*Przewodniki po egzaminach przygotowali dla Was:*
+
+* [Wojciech Gawroński @afronski](https://github.com/afronski)
+* [Robert Mandziarz @rmandziarz](https://github.com/rmandziarz)
+* [Wojciech Szczepucha @donkoyote](https://github.com/donkoyote)
+* [Andrzej Kaczyński @andrewkaczynski](https://github.com/andrewkaczynski)
+* [Karolina Boboli @karolina108](https://github.com/karolina108)
