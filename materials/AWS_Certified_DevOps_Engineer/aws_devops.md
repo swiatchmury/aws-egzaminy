@@ -134,11 +134,13 @@ Choosing metrics:
 
 [CreationPolicy Attribute](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-creationpolicy.html)
 
-[ChangeSet](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html)
+[Change Sets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html)
 
 [Best practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
 
 [Intrinsic Functions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html)
+
+[Best Practices for Deploying Applications on AWS CloudFormation Stacks](https://aws.amazon.com/blogs/devops/best-practices-for-deploying-applications-on-aws-cloudformation-stacks/)
 
 #### AWS CloudWatch
 
@@ -176,6 +178,8 @@ Choosing metrics:
 
 [Running Docker on AWS OpsWorks](https://aws.amazon.com/blogs/devops/running-docker-on-aws-opsworks/)
 
+[How to set up AWS OpsWorks Stacks auto healing notifications in Amazon CloudWatch Events](https://aws.amazon.com/blogs/mt/how-to-set-up-aws-opsworks-stacks-auto-healing-notifications-in-amazon-cloudwatch-events/)
+
 #### AWS Config
 
 [What is AWS Config?](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html)
@@ -196,7 +200,7 @@ Choosing metrics:
 
 #### AWS Lambda
 
-[Using AWS Lambda with Amazon S2 Events](https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html)
+[Using AWS Lambda with Amazon S3 Events](https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html)
 
 [AWS Lambda Function Aliases](https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html)
 
@@ -253,6 +257,8 @@ Choosing metrics:
 [Implementing GitFlow Usinge AWS Code* services](https://aws.amazon.com/blogs/devops/implementing-gitflow-using-aws-codepipeline-aws-codecommit-aws-codebuild-and-aws-codedeploy/)
 
 [Jenkins on AWS](https://d1.awsstatic.com/whitepapers/DevOps/Jenkins_on_AWS.pdf)
+
+[Tagging resources](https://d1.awsstatic.com/whitepapers/aws-tagging-best-practices.pdf)
 
 ## How-to
 
