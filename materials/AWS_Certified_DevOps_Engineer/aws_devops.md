@@ -58,9 +58,13 @@ Testy: Whizlabs, ACloudGuru, Braincert
 
 [Scheduled Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/schedule_time.html)
 
+[AutoScaling LifeCycle Hooks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html)
+
+[AutoScaling Cooldown](https://docs.aws.amazon.com/autoscaling/ec2/userguide/Cooldown.html)
+
 [FAQ](https://aws.amazon.com/ec2/autoscaling/faqs/)
 
-Choosing metrics:
+Choosing metrics for AutoScaling:
 
 *Not all metrics work for target tracking. This can be important when you are specifying a customized metric. The metric must be a valid utilization metric and describe how busy an instance is. The metric value must increase or decrease proportionally to the number of instances in the Auto Scaling group. That's so the metric data can be used to proportionally scale out or in the number of instances.*
 
@@ -73,6 +77,8 @@ Choosing metrics:
 #### AWS CloudTrail FAQ
 
 [FAQ](https://aws.amazon.com/cloudtrail/faqs/)
+
+[Monitor Changes and Auto-Enable Logging in AWS CloudTrail](https://aws.amazon.com/blogs/mt/monitor-changes-and-auto-enable-logging-in-aws-cloudtrail/)
 
 #### AWS CodeCommit
 
@@ -128,17 +134,21 @@ Choosing metrics:
 
 [Create and Add a Custom Action in CodePipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/actions-create-custom-action.html)
 
+[Detect and React to Changes in Pipeline State with Amazon CloudWatch Events](https://docs.aws.amazon.com/codepipeline/latest/userguide/detect-state-changes-cloudwatch-events.html)
+
 #### AWS CloudFormation
 
 [DeletionPolicy Attribute](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-deletionpolicy.html)
 
 [CreationPolicy Attribute](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-creationpolicy.html)
 
-[ChangeSet](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html)
+[Change Sets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html)
 
 [Best practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
 
 [Intrinsic Functions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html)
+
+[Best Practices for Deploying Applications on AWS CloudFormation Stacks](https://aws.amazon.com/blogs/devops/best-practices-for-deploying-applications-on-aws-cloudformation-stacks/)
 
 #### AWS CloudWatch
 
@@ -155,6 +165,8 @@ Choosing metrics:
 #### AWS Elastic Beanstalk
 
 [Elastic Beanstalk concepts](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.html)
+
+[Saved Configurations](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environment-configuration-savedconfig.html)
 
 [FAQ](https://aws.amazon.com/elasticbeanstalk/faqs/)
 
@@ -174,7 +186,15 @@ Choosing metrics:
 
 [Installing Custom Cookbooks](https://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-installingcustom-enable.html)
 
+[Running Recipes](https://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-assigningcustom.html)
+
 [Running Docker on AWS OpsWorks](https://aws.amazon.com/blogs/devops/running-docker-on-aws-opsworks/)
+
+[How to set up AWS OpsWorks Stacks auto healing notifications in Amazon CloudWatch Events](https://aws.amazon.com/blogs/mt/how-to-set-up-aws-opsworks-stacks-auto-healing-notifications-in-amazon-cloudwatch-events/)
+
+[Using Berkshelf](https://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-chef11-10.html#workingcookbook-chef11-10-berkshelf)
+
+[Security Updates](https://docs.aws.amazon.com/opsworks/latest/userguide/workingsecurity-updates.html)
 
 #### AWS Config
 
@@ -186,7 +206,13 @@ Choosing metrics:
 
 [Multi-Account Multi-Region Data Aggregation](https://docs.aws.amazon.com/config/latest/developerguide/aggregate-data.html)
 
+[How to Audit Your AWS Resources for Security Compliance by Using Custom AWS Config Rules](https://aws.amazon.com/blogs/security/how-to-audit-your-aws-resources-for-security-compliance-by-using-custom-aws-config-rules/)
+
 #### AWS Trusted Advisor
+
+[AWS Trusted Advisor Checklist](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/best-practice-checklist/)
+
+[Monitoring Trusted Advisor check results with Amazon CloudWatch Events](https://docs.aws.amazon.com/awssupport/latest/user/cloudwatch-events-ta.html)
 
 #### Amazon ECS i ECR
 
@@ -196,7 +222,9 @@ Choosing metrics:
 
 #### AWS Lambda
 
-[Using AWS Lambda with Amazon S2 Events](https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html)
+[Best practices](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html)
+
+[Using AWS Lambda with Amazon S3 Events](https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html)
 
 [AWS Lambda Function Aliases](https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html)
 
@@ -214,9 +242,13 @@ Choosing metrics:
 
 [Using Amazon RDS Event Notification](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Events.html)
 
+[Near Zero Downtime Migration from MySQL to DynamoDB](https://aws.amazon.com/blogs/big-data/near-zero-downtime-migration-from-mysql-to-dynamodb/)
+
 #### AWS Systems Manager
 
-[Systems Manager Inventory](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-inventory.html)
+[AWS Systems Manager Inventory](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-inventory.html)
+
+[AWS Systems Manager Patch Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-patch.html)
 
 #### IAM
 
@@ -238,6 +270,26 @@ Choosing metrics:
 
 [What is AWS Application Discovery Service](https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
 
+#### S3 & Glacier
+
+[Range retrieval for Amazon Glacier](https://aws.amazon.com/blogs/aws/new-range-retrieval-for-amazon-glacier/)
+
+### Amazon ElasticSearch & Kibana
+
+[Controlling Access to Kibana](https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-kibana.html#es-kibana-access)
+
+### Amazon EC2
+
+[Troubleshooting instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstances.html)
+
+### SAM
+
+[Deploying Serverless Applications Gradually](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/automating-updates-to-serverless-apps.html)
+
+### Amazon Kinesis
+
+[Implement Serverless Log Analytics Using Amazon Kinesis Analytics](https://aws.amazon.com/blogs/big-data/implement-serverless-log-analytics-using-amazon-kinesis-analytics/)
+
 ## Pozostałe materiały
 
 [Chcesz Wiedzieć, co Łączy AWS Lambdę, Aliasy i Kanarki?](https://chmurowisko.pl/co-laczy-aws-lambde-aliasy-i-kanarki/)
@@ -250,9 +302,13 @@ Choosing metrics:
 
 [Earn Your DevOps Black Belt: Deployment Scenarios with AWS CloudFormation](https://www.slideshare.net/AmazonWebServices/earn-your-devops-black-belt-deployment-scenarios-with-aws-cloudformation-dev308r1-aws-reinvent-2018)
 
-[Implementing GitFlow Usinge AWS Code* services](https://aws.amazon.com/blogs/devops/implementing-gitflow-using-aws-codepipeline-aws-codecommit-aws-codebuild-and-aws-codedeploy/)
+[Implementing GitFlow Usage AWS Code* services](https://aws.amazon.com/blogs/devops/implementing-gitflow-using-aws-codepipeline-aws-codecommit-aws-codebuild-and-aws-codedeploy/)
 
 [Jenkins on AWS](https://d1.awsstatic.com/whitepapers/DevOps/Jenkins_on_AWS.pdf)
+
+[Tagging resources](https://d1.awsstatic.com/whitepapers/aws-tagging-best-practices.pdf)
+
+[Automate Your IT Operations Using AWS Step Functions and Amazon CloudWatch Events](https://aws.amazon.com/blogs/compute/automate-your-it-operations-using-aws-step-functions-and-amazon-cloudwatch-events/)
 
 ## How-to
 
