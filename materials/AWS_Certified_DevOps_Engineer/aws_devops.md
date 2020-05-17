@@ -26,7 +26,7 @@
 ### Udemy
 
 [AWS Certified DevOps Engineer Professional 2020 - Hands On!](https://www.udemy.com/course/aws-certified-devops-engineer-professional-hands-on/) - *Stephane Maarek* (20h)
-=> najbardziej aktualny pod kątem egzaminu
+=> najbardziej aktualny pod kątem egzaminu; ponadto bardzo dobrze pokazuje integrację różnych usług (co jest istotne na tym egzaminie)
 
 Testy: Whizlabs, ACloudGuru, Braincert
 
