@@ -38,6 +38,10 @@ ACloudGuru - AWS Certified DevOps Engineer - Exam Simulator
 
 [Braincert - AWS Certified DevOps Engineer – Professional DOP-C01 Practice Exams](https://www.braincert.com/course/10809-AWS-Certified-DevOps-Engineer-%E2%80%93-Professional-Practice-Exams)
 
+### Ściągawki
+
+[AWS Developers Tools Cheat sheet](https://tutorialsdojo.com/aws-cheat-sheets-developer-tools/)
+
 ## AWS Whitepapers
 
 [Running Containerized Microservices on AWS](https://d1.awsstatic.com/training-and-certification/docs-devops-pro/running-containerized-microservices-on-aws.pdf)
