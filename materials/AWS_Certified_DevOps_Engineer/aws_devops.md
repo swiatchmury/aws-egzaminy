@@ -28,7 +28,19 @@
 [AWS Certified DevOps Engineer Professional 2020 - Hands On!](https://www.udemy.com/course/aws-certified-devops-engineer-professional-hands-on/) - *Stephane Maarek* (20h)
 => najbardziej aktualny pod kątem egzaminu; ponadto bardzo dobrze pokazuje integrację różnych usług (co jest istotne na tym egzaminie)
 
-Testy: Whizlabs, ACloudGuru, Braincert
+### Testy
+
+ACloudGuru - AWS Certified DevOps Engineer - Exam Simulator
+
+[Udemy - AWS Certified DevOps Engineer Professional Practice Exams](https://www.udemy.com/course/aws-certified-devops-engineer-professional-practice-exams-amazon)
+
+[Whizlabs - AWS Certified DevOps Engineer Professional](https://www.whizlabs.com/aws-devops-certification-training/practice-tests/)
+
+[Braincert - AWS Certified DevOps Engineer – Professional DOP-C01 Practice Exams](https://www.braincert.com/course/10809-AWS-Certified-DevOps-Engineer-%E2%80%93-Professional-Practice-Exams)
+
+### Ściągawki
+
+[AWS Developers Tools Cheat sheet](https://tutorialsdojo.com/aws-cheat-sheets-developer-tools/)
 
 ## AWS Whitepapers
 
