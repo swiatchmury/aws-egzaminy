@@ -30,13 +30,27 @@
 
 ### Testy
 
+**Te są naprawdę wymagające:**
+
 ACloudGuru - AWS Certified DevOps Engineer - Exam Simulator
 
-[Udemy - AWS Certified DevOps Engineer Professional Practice Exams](https://www.udemy.com/course/aws-certified-devops-engineer-professional-practice-exams-amazon)
+[Udemy - AWS Certified DevOps Engineer Professional Practice Exams (Jon Bonso)](https://www.udemy.com/course/aws-certified-devops-engineer-professional-practice-exams-amazon)
+
+lub
+
+[Tutorials Dojo - AWS Certified DevOps Engineer Professional Practice Exams 2020 (Jon Bonso)](https://portal.tutorialsdojo.com/courses/aws-certified-devops-engineer-professional-practice-exams/)
+
+*Jeśli wykupimy zestawy w ramach Udemy, to można otrzymać kod na 3 miesiące do podobnego w ramach Tutorials Dojo. Tutorials Dojo daje opcję studiowania w tzw. "review mode" - otrzymujemy 30 losowo wybranych pytań i od razu można zobaczyc odpowiedzi*
+
+[Udemy - Practice Exam - [Practice Exam] AWS Certified DevOps Engineer Professional (Stephane Maarek)](https://www.udemy.com/course/aws-certified-devops-engineer-professional-practice-exam-dop)
+
+**Jako dodatek:**
 
 [Whizlabs - AWS Certified DevOps Engineer Professional](https://www.whizlabs.com/aws-devops-certification-training/practice-tests/)
 
 [Braincert - AWS Certified DevOps Engineer – Professional DOP-C01 Practice Exams](https://www.braincert.com/course/10809-AWS-Certified-DevOps-Engineer-%E2%80%93-Professional-Practice-Exams)
+
+Linux Academy - Test końcowy w ramach kursu "AWS Certified DevOps Engineer - Professional Level"
 
 ### Ściągawki
 
@@ -164,6 +178,8 @@ Choosing metrics for AutoScaling:
 
 #### AWS CloudWatch
 
+[AWS CloudWatch Cheat Sheet](https://tutorialsdojo.com/aws-cheat-sheet-amazon-cloudwatch/)
+
 [Scheduled EBS volume snapshots using Amazon CloudWatch](https://aws.amazon.com/premiumsupport/knowledge-center/cloudwatch-setup-ebs-snapshots/)
 
 [Taking Scheduled Snapshot](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/TakeScheduledSnapshot.html)
@@ -258,9 +274,13 @@ Choosing metrics for AutoScaling:
 
 #### AWS Systems Manager
 
+[AWS Systems Manager Cheat Sheet](https://tutorialsdojo.com/aws-cheat-sheet-aws-systems-manager/)
+
 [AWS Systems Manager Inventory](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-inventory.html)
 
 [AWS Systems Manager Patch Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-patch.html)
+
+[Patching your Windows EC2 instances using AWS Systems Manager - Patch Manager](https://aws.amazon.com/blogs/mt/patching-your-windows-ec2-instances-using-aws-systems-manager-patch-manager/)
 
 #### IAM
 
@@ -301,6 +321,16 @@ Choosing metrics for AutoScaling:
 ### Amazon Kinesis
 
 [Implement Serverless Log Analytics Using Amazon Kinesis Analytics](https://aws.amazon.com/blogs/big-data/implement-serverless-log-analytics-using-amazon-kinesis-analytics/)
+
+### CloudFront
+
+[CloudFront Cheat Sheet](https://tutorialsdojo.com/aws-cheat-sheet-amazon-cloudfront/)
+
+### AWS Organizations
+
+[AWS Organizations Cheat Sheet](https://tutorialsdojo.com/aws-cheat-sheet-aws-organizations/)
+
+
 
 ## Pozostałe materiały
 
