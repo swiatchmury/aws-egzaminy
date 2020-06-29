@@ -4,7 +4,7 @@ W tej sekcji znajdziesz materiały dotyczące egzaminu *AWS Certified Solutions 
 
 ## Informacje ogólne
 
-Jeśli nie pracowałeś(aś) z AWS wcześniej, ten egzamin nie jest dla Ciebie.
+Ten egzamin jest dla Ciebie jeśli pracowałeś(aś) z już z AWS. Im więcej doświadczenia, tym lepiej :-)
 
 ### Kursy egzaminacyjne i wspomagające przygotowania do egzaminu
 
