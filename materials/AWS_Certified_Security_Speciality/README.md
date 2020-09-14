@@ -15,6 +15,8 @@ Amazon w kontekście Security Speciality wymaga dość określonej wiedzy, mocno
 
 > 2020-04-28: Przerobiłem oba i jeśli mam być szczery to ciężko polecić mi kurs acloud.guru. Dużo tematów przedstawili pobieżnie. Powiedział bym nawet, że nie wyszli mocno poza poziom associate, gdzie tutaj zakres materiału powinien być większy. Kurs wygląda na robiony "na szybko" i pojawiało się jeszcze sporo nagrań w chwili kiedy ja z niego korzystałem. Kurs Linux Academy powoli się dezaktualizuje, ale poziom merytoryczny jest wyższy.
 
+[@donkoyote](https://github.com/donkoyote):
+> 2020-09-14: aCloud.guru przejęło LinuxAcademy, dlatego warto monitorować oba, jak będę miał jakieś konkretne informacje odnośnie tego konkretnego kursu, zaktualizuję repozytorium.
 
 Dodatkowo 
 * Whizlabs - dostarcza przykładowe pytania - bardzo dobrze przygotowane, choć bywają nieaktualne odpowiedzi, patrząc z poziomu aktualnych serwisów (np. AWS pozwala na wykonywanie testów penetracyjnych bez informowania ich o tym, o ile znajdują się w dopuszczonym zakresie - [zerknij tutaj](https://aws.amazon.com/security/penetration-testing#Customer_Service_Policy_for_Penetration_Testing))
