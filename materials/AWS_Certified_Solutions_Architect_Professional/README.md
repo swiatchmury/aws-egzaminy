@@ -80,8 +80,8 @@ Lista interesujących dokumentów rekomendowanych do przeczytania przed przystą
 ### Networking
 
 - [Amazon Virtual Private Cloud Connectivity Options](https://d1.awsstatic.com/whitepapers/aws-amazon-vpc-connectivity-options.pdf).
-- [Building a Scalable and Secure Multi-VPC AWS Network Infrastructure](https://d1.awsstatic.com/whitepapers/bilding-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.pdf).
-- [Integrating AWS with Multiprotocol Label Switching](https://d1.awsstatic.com/whitepapers/Networking/itegrating-aws-with-multiprotocol-label-switching.pdf).
+- [Building a Scalable and Secure Multi-VPC AWS Network Infrastructure](https://d1.awsstatic.com/whitepapers/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.pdf).
+- [Integrating AWS with Multiprotocol Label Switching](https://d1.awsstatic.com/whitepapers/Networking/integrating-aws-with-multiprotocol-label-switching.pdf).
 
 ### Use Cases and Architecture
 
@@ -91,7 +91,7 @@ Lista interesujących dokumentów rekomendowanych do przeczytania przed przystą
 - [Automating Elasticity](https://d1.awsstatic.com/whitepapers/cost-optimization-automating-elasticity.pdf).
 - [Implementing Microservices on AWS](https://d1.awsstatic.com/whitepapers/microservices-on-aws.pdf).
 - [Overview of Deployment Options on AWS](https://d1.awsstatic.com/whitepapers/overview-of-deployment-options-on-aws.pdf).
-- [Practicing Continuous Integration and Continuous Delivery on AWS](https://d1.awsstatic.com/whitepapers/DevOps/pacticing-continuous-integration-continuous-delivery-on-AWS.pdf).
+- [Practicing Continuous Integration and Continuous Delivery on AWS](https://d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf).
 
 ### Databases
 
