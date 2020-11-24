@@ -3,7 +3,7 @@
 
 ### Informacje ogólne i linki
 
-Jeśli nie pracowałeś(aś) z AWS wcześniej, ten egzamin nie jest dla Ciebie. 
+Jeśli nie pracowałeś(aś) z AWS wcześniej, ten egzamin nie jest dla Ciebie.
 Amazon w kontekście Security Speciality wymaga dość określonej wiedzy, mocno popartej realnym doświadczeniem w obszarze IAM, S3, CloudWatch, KMS - i kombinacją tych czterech. Do tego dochodzi zrozumienie działania ataków Denial of Service i ich zapobieganiu.
 
 ### Kursy egzaminacyjne i wspomagające przygotowania do egzaminu
@@ -18,7 +18,7 @@ Amazon w kontekście Security Speciality wymaga dość określonej wiedzy, mocno
 [@donkoyote](https://github.com/donkoyote):
 > 2020-09-14: aCloud.guru przejęło LinuxAcademy, dlatego warto monitorować oba, jak będę miał jakieś konkretne informacje odnośnie tego konkretnego kursu, zaktualizuję repozytorium.
 
-Dodatkowo 
+Dodatkowo
 * Whizlabs - dostarcza przykładowe pytania - bardzo dobrze przygotowane, choć bywają nieaktualne odpowiedzi, patrząc z poziomu aktualnych serwisów (np. AWS pozwala na wykonywanie testów penetracyjnych bez informowania ich o tym, o ile znajdują się w dopuszczonym zakresie - [zerknij tutaj](https://aws.amazon.com/security/penetration-testing#Customer_Service_Policy_for_Penetration_Testing))
 
 ### AWS Whitepapers
@@ -29,20 +29,22 @@ Koniecznie przeczytaj przed egzaminem
 * [AWS Security Best Practices](https://d1.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf)
 * [AWS Best Practices for DDoS Resiliency](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf?)
 * [Overview of AWS Security - Network Security](https://d1.awsstatic.com/whitepapers/Security/Networking_Security_Whitepaper.pdf)
-
-
+* [AWS Key Management Service Best Practices] (https://d1.awsstatic.com/whitepapers/aws-kms-best-practices.pdf)
+* [AWS Well-Architected Framework - Securiyt Pillar] (https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/wellarchitected-security-pillar.pdf)
+* [AWS Security Whitepaper] (https://d1.awsstatic.com/whitepapers/aws-security-whitepaper.pdf)
+* [AWS Security Incident Response Guide] (https://d1.awsstatic.com/whitepapers/aws_security_incident_response.pdf)
 ### Usługi AWS, które trzeba znać na wylot
 
 * AWS IAM:
   * Policy, sposób budowania, mechanizm selekcji - tutaj nie ma zmiłuj, nie idź dalej, jeśli nie czujesz, że doskonale rozumiesz zasadę działania. Musisz rozumieć zasadę działania elementu 'Condition' w polisie.
   * Musisz dobrze rozumieć różnicę pomiędzy identity i resource policies oraz to kiedy je używamy.
   * Pamiętaj jak dajemy uprawnienia do zasobów pomiędzy kontami AWS.
-* AWS IAM:
   * User, Group, Idenity Pool (wykorzystanie SAML) - Wystarczy ogólna znajomość, best practice.
-  * Typowy scenariusz jaki może pojawić się na egzaminie: duża organizacja (np. 5000 kont użytkowników, posiadająca IdP w lokalnej sieci) chce nadać uprawnienia do kont AWS. Jak zbudować federację z AWS (SAML + ADFS).
+  * Typowy scenariusz jaki może pojawić się na egzaminie: duża organizacja (np. 5000 kont użytkowników, posiadająca IdP w lokalnej sieci) chce nadać uprawnienia do kont AWS. Jak zbudować federację z AWS (SAML + ADFS lub AWS SSO + ADFS).
 * AWS KMS:
   * Tę usługę musisz również poznać bardzo dokładnie, budowę uprawnień, jak współpracuje z innymi serwisami w kontekście autoryzacji dostępu do certyfikatów, szyfrowania i deszyfrowania zawartości. Bardziej ogólnie, kiedy wykorzystać CMK, a kiedy CloudHSM.
   * Spodziewaj się pytań o rotowanie kluczy. Musisz wiedzieć, kiedy można ustawić automatyczne rotowanie a kiedy należy rotować klucz ręcznie.
+  * Warto zwrócić uwagę na to kto generuje materiał do klucza (AWS czy klient) i scenariusze usuwania tego materiału z klucza oraz samego klucza i możliwości jego przywracania.
 * AWS CloudHSM:
   * Warto wiedzieć, w których scenariuszach się sprawdzi, jakie są różnice w zarządzaniu, jak radzić sobie z Disaster Recovery i multi-region.
 * AWS S3:
@@ -51,10 +53,12 @@ Koniecznie przeczytaj przed egzaminem
   * Musisz wiedzieć kiedy lepiej zastosować Bucket Policy, kiedy ACL na poziomie obiektów itp.
 * VPC:
   * Bezpieczeństwo dla sieci prywatnych i publicznych, np. routing, NAT.
+  * Warto poznać podstawy IPv6 w kontekście bezpieczeństwa w AWS (np. egress-only internet gateway)
   * Jak działają Security Groups i NACL - do czego możemy je podłączyć, stateful vs stateless.
-  * Różne połączenia pomiędzy sieciami: peering, VPC Endpoints, PrivateLink.
+  * Różne połączenia pomiędzy sieciami: peering, VPC Endpoints, PrivateLink, Transit Gateway.
   * Bastion Host.
   * Diagnozowanie problemów z połączeniami sieciowymi np. na podstawie VPC Flow Logs - typowy scenariusz kiedy Security Group zezwala na ruch wchodzący a NACL blokuje ruch wychodzący.
+  * Scenariusze łączenia Direct Connect i VPN w kontekście bezpieczeństwa.
 * AWS CloudWatch:
   * Zrozum, jak działa i do czego służy - jak go pożenić z innymi usługami, czy tez wykorzystać jako Cron.
   * Warto wiedzieć jak konfigurować centralne logowanie zdarzeń z różnych serwisów i większej liczby kont AWS.
@@ -63,6 +67,7 @@ Koniecznie przeczytaj przed egzaminem
 * AWS Lambda:
   * Pobaw się uprawnieniami przy wykorzystania innych serwisów i współpracą z API Gateway, a w tym Cognito i uwierzytelnianie.
   * Powinieneś też wiedzieć kiedy Lambda może się przydać, np. automatyzacja odpowiedzi na zdarzenia.
+  * Warto znać ryzyka związane z odpalaniem lambd i ich stopniem zrównoleglenia (efektywna blokada działania _wszystkich_ lambd na koncie), możliwością wyczerpania adresów w subnetcie.
 * AWS Cognito:
   * Warto rozróżniać User Pool vs Identity Pool, co kiedy zastosować i jak się buduje uprawnienia dla użytkowników w oparciu o IAM i Cognito.
 * AWS WAF:
@@ -72,11 +77,16 @@ Koniecznie przeczytaj przed egzaminem
   * Znać zasadę: Config służy do sprawdzania 'CO' zostało zmienione, a CloudTrail - głównie 'KTO' coś zmienił.
 * AWS SSM:
   * Główne tematy to remediacja i aktualizacja instancji.
-  * Warto wiedzieć, że da się skonfigurować połączenia do instancji EC2 bez otwierania portu 22.
+  * Trzeba wiedzieć, że da się skonfigurować połączenia do instancji EC2 bez otwierania portu 22. (https://www.youtube.com/watch?v=sMW6-8nLi9E - lighting talk na ten temat, niecałe 9 min)
+  * Warto wiedzieć, że Parameter Store też może służyć do przechowywania sekretów, różnice między Parameter Store a Secrets manager (głównie pod kątem audytowania i rotacji sekretów)
 * AWS Secrets Manager:
   * Typowy scenariusz to konfiguracja rotowania parametrów składowanych w tej usłudze i rozwiązywanie problemów. Pamiętaj, że po skonfigurowaniu automatycznej rotacji, pierwsza operacja następuje od razu i może to zepsuć działanie innej usługi konsumującej ten parametr.
 * AWS Athena:
   * W kontekście przeszukiwania logów.
+* AWS EventBridge:
+  * W kontekście monitorowania zachowań na kontach oraz przesyłania zdarzeń między kontami.
+* AWS Organizations
+  * Service Control Policies, Ogranization Units, sposób działania i to kiedy jest deny a kiedy allow w interakcji z rolami IAM.
 
 Warto też zapoznać się z:
 
@@ -86,12 +96,18 @@ Warto też zapoznać się z:
 * AWS CloudTrail
 * AWS Config
 * AWS Inspector
+* AWS Artifact
+* AWS Macie
+* AWS Single Sign-On
+* AWS API Gateway
+* AWS Cognito
 * Trusted Advisor
 * AWS Directory Services
-* AWS Organizations - do czego służy SCP.
+* Dedicated instances oraz dedicated hosts
+* Web Identity Federation (w kontekście IAM jak i Cognito)
 * Amazon ECS - tutaj bardzo ogólnie o bezpieczeństwie hostów i Dockera w kontekście tej usługi, ale bez szczegółów.
 
-Warto przeczytać FAQ dla wszystkich wymienionych powyżej usług oraz mocno skupić się na dokumentacji IAM i KMS. 
+Warto przeczytać FAQ dla wszystkich wymienionych powyżej usług oraz mocno skupić się na dokumentacji IAM i KMS.
 
 ### Pozostałe materiały
 
@@ -116,10 +132,9 @@ Warto przeczytać FAQ dla wszystkich wymienionych powyżej usług oraz mocno sku
 
 - Koniecznie poćwicz IAM Policy, KMS policy, policy... policy... nie tylko semantycznie, ale dla zrozumienia zasad działania, powiązań.
 - Poświęć czas na dobre zrozumienie AWS Config, AWS Inspector, AWS GuardDuty - co, skąd bierze informacje, w jaki sposób wymienia je między sobą, do czego służy.
-- Praktyczna znajomość CloudTrail (szczególnie dostępność danych w czasie), CloudWatch, VPC FLow Log jest niezbędna.
+- Praktyczna znajomość CloudTrail (szczególnie dostępność danych w czasie), CloudWatch, VPC Flow Log jest niezbędna.
 - DDoS - przeciwdziałanie w zależności od serwisu (ALB, CloudFront, EC2) - jest bardzo pomocne na egzaminie ;)
 - Warto przed egzaminem przejrzeć suplement z Linux Academy (url w ich kursie).
 - Wykorzystaj dodatkowy czas dla osób z wiodącym językiem innym niż angielski (koniecznie poproś o niego przed rejestracją na egzamin);
 - Wykorzystaj zniżkę za poprzedni egzamin (jeśli ją jeszcze posiadasz) – po każdym zdanym egzaminie, Amazon daje 50% kupon zniżkowy.
-
-
+- Dobrym ćwiczeniem jest implementacja (bądź też po prostu przemyślenie i zastanowienie się jak to zaimplementować) jakiegoś standardu bezpieczeństwa typu HIPAA lub PCI
